@@ -16,7 +16,7 @@ A **Misiurewicz point** is a parameter value $c$ for which the critical point $0
 Load the package with the relative path to its source file:
 
 ```wolfram
-Needs["Misiurewicz`", "scripts/Misiurewicz.wl"]
+Needs["Misiurewicz`"]
 
 (* Find the "tip" of the Mandelbrot set (pre-period 2, period 1) *)
 MisiurewiczPoints[2, 1]
